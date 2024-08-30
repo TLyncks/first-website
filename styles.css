@@ -16,13 +16,10 @@ body {
 header {
   background: linear-gradient(0deg, rgb(29, 29, 29), rgb(73, 73, 73))
 }
-a {
+
+a, h1 {
   color: whitesmoke;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-h1 {
-  color: whitesmoke;
-  font-family: poppins;
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 .center-text {
   display: flex;
@@ -56,6 +53,20 @@ header nav ul li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 
+.dropbtn {
+  font-size: 24px;
+  text-decoration: none;
+  color: whitesmoke;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -63,6 +74,8 @@ header nav ul li a:hover, .dropdown:hover .dropbtn {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  top: 100%;
+  left: 0;
 }
 
 .dropdown-content a {
@@ -79,4 +92,8 @@ header nav ul li a:hover, .dropdown:hover .dropbtn {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+header nav ul li a:hover, .dropdown:hover .dropbtn{
+  background-color: #555;
 }
