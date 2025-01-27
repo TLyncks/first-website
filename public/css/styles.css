@@ -14,8 +14,7 @@ body {
   display: flex;
   z-index: 1000;
   align-items: center;
-  padding: 10px 0;
-  justify-content: space-around;
+  padding: 10px 20px;
 }
 
 .navbar img {
@@ -27,11 +26,14 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 20px;
 }
 
 .navbar li {
   display: inline-block;
   text-align: center;
+  padding: 15px;
 }
 
 .navbar a {
