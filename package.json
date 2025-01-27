@@ -1,0 +1,24 @@
+{
+  "name": "first-website",
+  "version": "1.0.0",
+  "description": "This is my first project in my web development journey.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TLyncks/first-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TLyncks/first-website/issues"
+  },
+  "homepage": "https://github.com/TLyncks/first-website#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
+  }
+}
